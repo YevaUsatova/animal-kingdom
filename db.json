@@ -1,7 +1,20 @@
 {
     "animals": [
         {
-            "name": "Canine"
+            "name": "Kitten: ",
+            "fact":"There may have been instances of domesticated cats as early as 7,500 BC – that’s 9,500 years ago!"
+        },
+        {
+            "name": "Doggy: ",
+            "fact":"Different breeds of dogs have different sizes of litters (that’s the number of puppies born at one time). Dogs that are older or smaller tend to have small litters, and dogs that are younger or larger tend to have bigger litters. The largest litter on record was 24 puppies, born to Tia — a Mastiff breed dog."
+        },
+        {
+            "name": "Bear cub: ",
+            "fact":"Young bears stay with their mother for about one and a half years. Then, theyleave the family unit in search of theirown area to live, called a home range."
+        },
+        {
+            "name": "Owl: ",
+            "fact":"Owl chicks are born with the help of an egg tooth, which will fall off after a week or two. This is, in fact, a part of all bird births."
         }
     ]
-}
+}     

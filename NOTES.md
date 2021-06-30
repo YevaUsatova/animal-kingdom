@@ -8,6 +8,7 @@ The user can see pictures of animals and facts related to them by...
 
 # Stretch
 - Has pictures of animals with the title showen when user hower on img;
+- Has JSON text that can be printed out to the page when user clicks the button
 - 
 
 # Information

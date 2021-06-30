@@ -1,0 +1,24 @@
+body {
+    background-image: url(https://media.istockphoto.com/vectors/animal-paw-seamless-pattern-stock-illustration-vector-id1189999060?k=6&m=1189999060&s=612x612&w=0&h=tG8g2lgktr6Ue92rMkbvfxeJpikfTsbSccPPt4hfDuE=);    
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(197, 10, 10);
+    color: rgb(204, 18, 241);
+    font-size:75px ;
+    
+}
+
+h3 {
+    color:rgb(248, 147, 14);
+    font-size: 50px;
+}
+
+*row {
+    display: inline-block;
+    width: 30%;
+}
+  
+
+

@@ -12,6 +12,7 @@ function fetched() {
     fetch(myURL)
     .then(response => response.json())
     .then(data => {
+        ulJson.innerHTML = "";
         data.forEach(animal => {
             const li= document.createElement('li');
             li.textContent = animal.fact;

@@ -1,6 +1,6 @@
 # Animal Kingdom
 
-This project provides fun facts about animals ....
+This project provides fun facts about animals that are on the pictures.
 
 # How do you install this project?
 

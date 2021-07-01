@@ -12,18 +12,49 @@ h1 {
 
 h3 {
     color:rgb(248, 147, 14);
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
 }
 
-div {
-    margin-left: 0%;
-    width: 10%;
+div.column {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
 }
+
+div.column:hover {
+    border: 1px solid #777;
+}
+
+div.column img {
+    width: 100%;
+    height: auto;
+}
+
  li {
-     color: rgb(238, 22, 94);
+     color: rgb(114, 21, 122);
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-size: 30px;
+     font-size: 20px;
  }
-  
+ 
+ h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-shadow: cyan;
+    text-align: center;
+   
+ }
+ button#fact-button {
+    margin-right:80%;
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+ }
+ button:hover {
+    border: 1px solid #f80ae4;
+    background-color: #8fcc00;
+    color: #10f1e6;
+    padding: 5px 10px;
+  }
 
 

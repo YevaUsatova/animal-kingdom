@@ -7,7 +7,7 @@ const ulJson = document.querySelector("#cute-animals");
 //Accesses button in HTML for adding JS event click
 const clickButton = document.querySelector('#fact-button');
 
-//Function with the JSON transformed into sting
+//Function with the JSON transformed into sting 
 function fetched() {
     fetch(myURL)
     .then(response => response.json())
@@ -17,7 +17,8 @@ function fetched() {
             const li= document.createElement('li');
             li.textContent = animal.fact;
             ulJson.append(li); 
-            li.addEventListener('click', event => event.target.remove())  
+           li.addEventListener('click', event => event.target.remove()) 
+            
         });
         
     })
@@ -30,3 +31,4 @@ clickButton.addEventListener('click', () =>{
     const bodyUpdate = document.body
     bodyUpdate.style.filter ="drop-shadow(30px 10px 4px #4444dd)"
 })    
+
